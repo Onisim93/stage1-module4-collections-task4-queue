@@ -12,7 +12,6 @@ public class DishOrderDeterminer {
         }
 
         int counter = everyDishNumberToEat * numberOfDishes + numberOfDishes;
-        System.out.println(dishes);
 
         while (counter > numberOfDishes) {
             if (counter % everyDishNumberToEat == 0) {
